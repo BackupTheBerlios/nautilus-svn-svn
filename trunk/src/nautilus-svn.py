@@ -1,3 +1,6 @@
+"""
+This file should be copied to wherever nautilus-python looks for files.
+"""
 import nautilus
 
 import urllib
