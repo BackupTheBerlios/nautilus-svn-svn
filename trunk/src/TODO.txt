@@ -1,0 +1,41 @@
+Önskad funktionalitet för SVN-integration i Nautilus
+====================================================
+
+Allmänt
+-------
+* Bara aktiv i SVN-hanterade bibliotek (gäller ej "Import" och "checkout")
+* Använd Nautilus-Python, pyGnome och python-svn (pySVN)
+
+I Nautilus
+----------
+* Overlay-ikon beroende på SVN-status
+
+Kontextmeny
+-----------
+Toplevel:
+* update
+* status
+* status -u?
+* commit
+
+Submeny:
+* switch
+* copy
+* move
+* delete
+* checkout
+* diff
+* update to revision
+* resolved
+* revert
+* blame
+* import (endast ej SVN-bibliotek)
+* export
+* browse repository
+* (preferences)
+
+Property-sida
+-------------
+* Revision
+* Full repository-path
+* property-editering
